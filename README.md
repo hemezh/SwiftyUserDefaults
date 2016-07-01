@@ -231,6 +231,15 @@ If you're sharing your user defaults between different apps or an app and its ex
 var Defaults = NSUserDefaults(suiteName: "com.my.app")!
 ```
 
+### Remove all keys
+
+To remove all the keys and clear defaults, you can use the `removeAll` method
+
+
+```swift
+var Defaults = NSUserDefaults(suiteName: "com.my.app")!
+```
+
 ## Traditional API
 
 There's also a more traditional string-based API available. This is considered legacy API, and it's recommended that you use statically defined keys instead.
